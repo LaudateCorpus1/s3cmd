@@ -1,5 +1,10 @@
 # s3cmd
 
+Build:
 ```
-docker run s3cmd:latest s3cmd get s3://example/foo.txt
+docker build s3cmd:latest .
+
+Usage
+```
+docker run viant/s3cmd:latest s3cmd get s3://example/foo.txt
 ```
