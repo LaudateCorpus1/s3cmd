@@ -3,6 +3,7 @@
 Build:
 ```
 docker build s3cmd:latest .
+```
 
 Usage
 ```
